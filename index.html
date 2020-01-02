@@ -31,11 +31,10 @@ body,h1,h2,h5 {font-family: "Lato", sans-serif}
     </div>
         
       <h1>What is it?</h1>
-      <h5 class="w3-padding-32">Bemind is a Mental Wellness App. Our goal is to create an app that will help people deal with their emotions properly.Bringing attention to emotions and tracking emotions can help people get control back into their life. Also because I am not a mental professional there will be helplines and information for those suffering to get professional help. 
-The first step is getting help. It’s an app to help people       motivated to get help.</h5>
+      <h5 class="w3-padding-32">Bemind is a Mental Wellness App. Our goal is to create an app that will help people deal with their emotions properly. Bringing attention to emotions and tracking emotions can help people get control back into their life. Also because I am not a mental professional there will be helplines and information for those suffering to get professional help. 
+The first step is getting help. It’s an app to help people motivated to get help.</h5>
 
-      <p class="w3-text-grey">This app is soley for people who have got professional help with their mental health. We suggest that you contact your local GP or Consellor if you feel you are suffering from mental health problems. There is help out their.</p>
-        <h4>.</h4>
+      <p class="w3-text-grey">This app is solely for people who have got professional help with their mental health. We suggest that you contact your local GP or Counselor if you feel you are suffering from mental health problems. There is help out there.<h4>.</h4>
           <h4>.</h4>
           <h4>,</h4>
     </div>
@@ -94,9 +93,10 @@ The first step is getting help. It’s an app to help people       motivated to 
     <div class="w3-twothird">
         <h6>/</h6>
         <h6>/</h6>
-      <h1>Download Now</h1>
+      <h1>Download Soon</h1>
         
-      <h5 class="w3-padding-82">Our app is avaiable on the App store</h5>
+      <h5 class="w3-padding-82">Our app will be soon available on the App store</h5>
+        
         <li>Are you stressed out?</li>
         <li>Do you want to tak control of your life?</li>
         <li>Spend some quality time with yourself</li>
@@ -135,6 +135,27 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+    <script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 </script>
 
 </body>
